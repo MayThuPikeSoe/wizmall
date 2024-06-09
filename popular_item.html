@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>popular_item</title>
+    <link rel="stylesheet" href="./css/popular_item.css" />
+  </head>
+  <body>
+    <section class="product wrap">
+        <h2 class="prd_title">
+       인기상품
+        </h2>
+        <div>
+            <div class="prd_select_container">
+                <span class="count">카테고리에 7개의 상품이 등록되어 있습니다.</span>
+                <select name="orderby" onchange="this.form.submit();">
+                    <option value="">상품정렬방식</option>
+                    <option value="viewcnt desc">조회수 순</option>
+                    <option value="prdcode desc">최근등록순 순</option>
+                    <option value="sellprice asc">최저가격 순</option>
+                    <option value="sellprice desc">최고가격 순</option>
+		        </select>
+            </div>
+            <div class="prd_list_container">
+                <!-- card1 -->
+            <ul class="prd_cards">
+            <li>
+                <a href="">
+                <button class="wish_icon"></button>
+                <div class="prd_img">
+                    <img src="./images/prd.jpg" alt="" />
+                </div>
+                <dl>
+                    <dt>3단 자동 우산</dt>
+                    <dd class="icon_list">
+                    <img src="./images/icon_hit.gif" alt="" />
+                    <img src="./images/icon_new.gif" alt="" />
+                    <img src="./images/icon_sale.gif" alt="" />
+                    </dd>
+                    <dd>
+                    <span class="prd_pirce"> <strong>9900</strong> 원</span>
+                    <span class="prd_cost">22000 원</span>
+                    </dd>
+                </dl>
+                </a>
+            </li>
+            </ul>
+            <!-- card2 -->
+
+            <ul class="prd_cards">
+            <li>
+                <a href="">
+                <button class="wish_icon"></button>
+                <div class="prd_img">
+                    <img src="./images/popular.jpg" alt="" />
+                </div>
+                <dl>
+                    <dt>소프티 슈 softie shoe 64G 플래티넘 실리콘 USB메모리 [슈 64G]</dt>
+                    <dd class="icon_list">
+                    <img src="./images/icon_hit.gif" alt="" />
+                    </dd>
+                    <dd>
+                    <span class="prd_pirce"> <strong>10,900</strong>원</span>
+                    <span class="prd_cost">24,800원</span>
+                    
+                    </dd>
+                </dl>
+                </a>
+            </li>
+            </ul>
+            <!-- card3 -->
+            <ul class="prd_cards">
+            <li>
+                <a href="">
+                <button class="wish_icon"></button>
+                <div class="prd_img">
+                    <img src="./images/popular1.jpg" alt="" />
+                </div>
+                <dl>
+                    <dt>레트로 감성 토이 디지털 카메라</dt>
+                    <dd class="icon_list">
+                    <img src="./images/icon_hit.gif" alt="" />
+                    </dd>
+                    <dd>
+                    <span class="prd_pirce"> <strong>33,400</strong>원</span>
+                    <span class="prd_cost">60,000원/span>
+                    </dd>
+                </dl>
+                </a>
+            </li>
+            </ul>
+            <!-- card4 -->
+            <ul class="prd_cards">
+            <li>
+                <a href="">
+                <button class="wish_icon"></button>
+                <div class="prd_img">
+                    <img src="./images/md_prd3.jpg" alt="" />
+                </div>
+                <dl>
+                    <dt>[Peanuts] 스누피 폼폼파우치</dt>
+                    <dd class="icon_list">
+                    <img src="./images/icon_hit.gif" alt="" />
+                    <img src="./images/icon_best.gif" alt="" />
+                    </dd>
+                    <dd>
+                    <span class="prd_pirce"> <strong>9,000</strong> 원</span>
+                    </dd>
+                </dl>
+                </a>
+            </li>
+            </ul>
+            <!-- card 5 -->
+            <ul class="prd_cards">
+            <li>
+                <a href="">
+                <button class="wish_icon"></button>
+                <div class="prd_img">
+                    <img src="./images/popular2.jpg" alt="" />
+                </div>
+                <dl>
+                    <dt>쏭스디자인 실리콘스토리 멀티미니파우치</dt>
+                    <dd class="icon_list">
+                    <img src="./images/icon_hit.gif" alt="" />
+                    </dd>
+                    <dd>
+                    <span class="prd_pirce"> <strong>8,800</strong> 원</span>
+                    </dd>
+                </dl>
+                </a>
+            </li>
+            </ul>
+
+            <!-- card 6 -->
+            <ul class="prd_cards">
+            <li>
+                <a href="">
+                <button class="wish_icon"></button>
+                <div class="prd_img">
+                    <img src="./images/popular3.jpg" alt="" />
+                </div>
+                <dl>
+                    <dt>[테팔] 2in1 스팀&프레스 핸디형 스팀다리미 DV8633(액세서리4종)</dt>
+                    <dd class="icon_list">
+                    <img src="./images/icon_hit.gif" alt="" />
+                    </dd>
+                    <dd>
+                    <span class="prd_pirce"> <strong>57,500</strong> 원</span>
+                    <span class="prd_cost"> 115,000원</span>
+                    </dd>
+                </dl>
+                </a>
+            </li>
+            </ul>
+
+        </div>
+        <div class="page_btns">
+            <button class="page_btn"><img src="./images/page-first.jpg" alt="" /></button>
+            <button class="page_btn"> <img src="./images/page-prev.jpg" alt="" /></button>
+            <div class="page_no">
+                <a href="#">1</a>
+            </div>
+            </ul>
+            <button class="page_btn"><img src="./images/page-next.jpg" alt="" /></button>
+            <button class="page_btn"><img src="./images/page-last.jpg" alt="" /></button>
+        </div>
+        </div>
+    </section>
+  </body>
+</html>
