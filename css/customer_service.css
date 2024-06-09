@@ -26,6 +26,10 @@ body {
   padding-top: 10px;
 }
 /* table head */
+.table_head_container {
+  margin-left: 60px;
+  margin-right: 70px;
+}
 .customer_head_table {
   border-collapse: collapse;
   box-sizing: border-box;
@@ -56,7 +60,7 @@ body {
 .table_container2,
 .table_container3,
 .table_container4 {
-  display: block;
+  display: none;
   margin-left: 60px;
   margin-right: 70px;
 }

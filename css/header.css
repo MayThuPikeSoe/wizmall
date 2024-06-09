@@ -1,0 +1,38 @@
+body {
+  overflow-x: hidden;
+}
+.wrap {
+  position: relative;
+  width: 100%;
+  min-width: 1200px;
+}
+.header_container .header_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.header_container .header_top .header_link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  color: #666;
+}
+.header_container .logo_container {
+  display: flex;
+  position: relative;
+}
+.header_container .logo_container h2 {
+  width: 200px;
+  height: 46px;
+  padding: 0 70px;
+}
+.header_container .logo_container .search_input {
+  margin-top: 20px;
+  width: 460px;
+  height: 46px;
+  padding: 0 60px 0 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #888;
+}

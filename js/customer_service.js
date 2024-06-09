@@ -20,6 +20,9 @@ tableHeadbtn.addEventListener("click", () => {
 tableHeadbtn2.addEventListener("click", () => {
   tableHeadbtn2.classList.add("active");
   tableHeadbtn.classList.remove("active");
+  tableHeadbtn3.classList.remove("active");
+  tableHeadbtn4.classList.remove("active");
+
   tableContainer2.style.display = "block";
   tableContainer.style.display = "none";
   tableContainer3.style.display = "none";
